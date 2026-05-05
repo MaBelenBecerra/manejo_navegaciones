@@ -8,21 +8,21 @@ class EventListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<ManhwaEvent> events = [
       ManhwaEvent(
-        title: 'The Pizza Delivery Man...',
+        title: 'The Pizza Delivery Man & The Gold Palace',
         author: 'Uigang',
-        description: 'Pop-up store exclusiva del Gold Palace.',
+        description: 'Acrylic stand exclusiva.',
         passPrice: 25.50,
       ),
       ManhwaEvent(
         title: 'Ignite the Dawn',
-        author: 'Desconocido',
+        author: 'Inking',
         description: 'Firma de autógrafos y galería.',
         passPrice: 30.00,
       ),
       ManhwaEvent(
         title: 'Painter of the Night',
         author: 'Byeonduck',
-        description: 'Experiencia inmersiva.',
+        description: 'Venta exclusiva de caja musical.',
         passPrice: 45.00,
       ),
     ];
